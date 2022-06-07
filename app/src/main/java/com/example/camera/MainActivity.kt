@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         btnTel = findViewById(R.id.btnTel)
         btnTel.setOnClickListener {
             val intent = Intent(Intent.ACTION_CALL)
-            val u = Uri.parse("tel:0982803129")
+            val u = Uri.parse("tel:0426328001,18110")
             intent.setData(u)
             startActivity(intent)
         }
